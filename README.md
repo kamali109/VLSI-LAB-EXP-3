@@ -5,6 +5,7 @@ AIM:
 To simulate and synthesis multiplier using Xilinx ISE.
 
 APPARATUS REQUIRED:
+
 VIVADO 2023.2
   
 PROCEDURE:
