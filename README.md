@@ -1,12 +1,12 @@
 SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 
-**AIM: **
+AIM:
  To simulate and synthesis multiplier using Xilinx ISE.
 
-**APPARATUS REQUIRED:**
+APPARATUS REQUIRED:
 VIVADO 2023.2
   
-**PROCEDURE:**
+PROCEDURE:
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
@@ -19,12 +19,11 @@ STEP:9  In the Design Object List Window, enter the pin location for each pin in
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
-**Logic Diagram**
 2 bit Multiplier
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
-2-BIT MULTIPLIER
+2-BIT MULTIPLIER:
 CODE:
 ```
 module ha(a,b,s,carry);
@@ -44,7 +43,7 @@ endmodule
 OUTPUT:
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-3/assets/160600794/f717d104-2f83-491a-8fa6-0a296eb338e3)
 
-**4 Bit Multiplier**
+4 Bit Multiplier:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
@@ -86,7 +85,7 @@ endmodule
 OUTPUT:
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-3/assets/160600794/40e62a4d-e2a4-41c9-8678-5f051b4a439f)
 
-**Result**
+RESULT:
 The simulate and synthesis multiplier using VIVADO is successfully verified.
 
 
