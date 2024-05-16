@@ -1,15 +1,15 @@
-SIMULATION AND IMPLEMENTATION OF MULTIPLIER
+# SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 
-AIM:
+# AIM:
 ```
 To simulate and synthesis multiplier using Xilinx ISE.
 ```
 
-APPARATUS REQUIRED:
+# APPARATUS REQUIRED:
 ```
 VIVADO 2023.2
 ```
-PROCEDURE:
+# PROCEDURE:
 ```
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
@@ -23,11 +23,11 @@ STEP:9  In the Design Object List Window, enter the pin location for each pin in
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 ```
-2-BIT MULTIPLIER:
+# 2-BIT MULTIPLIER:
 
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-3/assets/160600794/e4b757c8-7345-4eea-b6b3-86d7548a48bc)
 
-CODE:
+# CODE:
 ```
 module ha(a,b,s,carry);
 input a,b;
@@ -43,14 +43,14 @@ ha h1(a[0]&b[1],a[1]&b[0],c[1],w);
 ha h2(a[1]&b[1],w,c[2],c[3]);
 endmodule
 ```
-OUTPUT:
+# OUTPUT:
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-3/assets/160600794/f717d104-2f83-491a-8fa6-0a296eb338e3)
 
-4 Bit Multiplier:
+# 4 Bit Multiplier:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
-CODE:
+# CODE:
 ```
 module ha(a,b,sum,carry);
 input a,b;
@@ -85,10 +85,10 @@ fa f7(w[16],a[2]&b[3],w[13],p[5],w[17]);
 fa f8(w[17],w[14],a[3]&b[3],p[6],p[7]);
 endmodule
 ```
-OUTPUT:
+# OUTPUT:
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-3/assets/160600794/40e62a4d-e2a4-41c9-8678-5f051b4a439f)
 
-RESULT:
+# RESULT:
 ```
 The simulate and synthesis multiplier using VIVADO is successfully verified.
 ```
