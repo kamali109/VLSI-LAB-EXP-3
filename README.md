@@ -88,6 +88,8 @@ OUTPUT:
 ![image](https://github.com/kamali109/VLSI-LAB-EXP-3/assets/160600794/40e62a4d-e2a4-41c9-8678-5f051b4a439f)
 
 RESULT:
+```
 The simulate and synthesis multiplier using VIVADO is successfully verified.
+```
 
 
