@@ -9,6 +9,7 @@ APPARATUS REQUIRED:
 VIVADO 2023.2
   
 PROCEDURE:
+```
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
@@ -20,7 +21,7 @@ STEP:8  Select Check Syntax from the Synthesize  XST Process. Double Click in th
 STEP:9  In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu.
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
-
+```
 2 bit Multiplier
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
