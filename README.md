@@ -1,13 +1,14 @@
 SIMULATION AND IMPLEMENTATION OF MULTIPLIER
 
 AIM:
-
+```
 To simulate and synthesis multiplier using Xilinx ISE.
+```
 
 APPARATUS REQUIRED:
-
+```
 VIVADO 2023.2
-  
+```
 PROCEDURE:
 ```
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
